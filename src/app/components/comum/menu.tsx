@@ -1,6 +1,7 @@
 import { MenuClose} from "../icons/MenuCloseIcon";
 import Image from "next/image";
 import Link from "next/link";
+import { ReactIconF } from "../icons/ReactIcon";
 
 interface MenuProps {
     isVisible: boolean;
@@ -12,11 +13,12 @@ export default function Menu({isVisible, onClose}: MenuProps) {
         <div className={`${isVisible ? 'flex': 'hidden'}
         fixed inset-0 w-full h-full bg-black bg-opacity-40 backdrop-blur-sm md:hidden
         `} onClick={ev=>onClose()}>
-            <div className="w-full bg-h-blue-900 h-96 shadow-md py-4 px-5" onClick={(e) => e.stopPropagation()}>
+            <div className="w-full bg-[#121113] h-96 shadow-md py-4 px-5 fixed " onClick={(e) => e.stopPropagation()}>
                 <div className="flex justify-between mb-5 ">
                     <Link href="/">
-                        <Image src="/react.png" alt="Icon" width={55} height={55}
-                    />
+                        <ReactIconF />
+                        
+                    
                     </Link>
                     <button onClick={ev=>onClose()}>
                     <MenuClose className="w-10 h-10"/>

@@ -7,13 +7,12 @@ interface ProjetosProps {
 }
 export function Projetos({projetos} : ProjetosProps)  {
     return(
-        <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left pb-12">
+        <article className="space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left">
           <h2 className="text-2xl md:text-4xl">Projetos Realizados</h2>
 
           <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
             {projetos.map(({slug, name, image}, index) => (
-           /* <Link href={`/projetos/${slug}`} key={name + index }>*/
-           <Link target="_blank" href={`https://${slug}.github.io`} key={name + index }>
+            <Link href={`/projetos/${slug}`} key={name + index }>
                 <li className="text-md relative">
                     <Image src={image.url} alt={image.alt} width={300} height={300} className="object-cover rounded-2xl h-[12.71rem] mb-4"/>
                     <span>{name}</span>

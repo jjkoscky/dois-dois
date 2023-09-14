@@ -1,12 +1,11 @@
 import Header from './components/header'
 import Sobre from './components/sobre'
-
 import { Projetos } from './components/projetos'
  
 function IndexPage() {
   const projetos = [
     {
-      slug: 'marte-attack',
+      slug: 'marteattack',
       name: 'Marte Attack',
       image:{
         url: 'https://i.imgur.com/zR05d69.png',
@@ -14,7 +13,7 @@ function IndexPage() {
       },
     },
     {
-      slug: 'love-margikarp',
+      slug: 'lovemagikarp',
       name: 'LoveMagikarp',
       image:{
         url: 'https://i.imgur.com/gafuXYt.png',
@@ -22,7 +21,7 @@ function IndexPage() {
       },
     },
     {
-      slug: 'after-format',
+      slug: 'afterformat',
       name: 'AfterFormat',
       image:{
         url: 'https://i.imgur.com/TSRZwv8.png',
@@ -34,7 +33,7 @@ function IndexPage() {
   return (
     <main>
     <Header />
-      <div className='py-12 px-6 md:px-32 space-y-10 md:space-y-28'>
+      <div className='px-6 md:px-32 space-y-10 md:space-y-16'>
           <Sobre />
           <Projetos projetos={projetos}/>
       </div>   
