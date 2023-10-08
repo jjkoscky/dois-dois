@@ -2,7 +2,7 @@
 import Header from './components/header'
 import Sobre from './components/sobre'
 import { Projetos } from './components/projetos'
-import type { InferGetStaticPropsType, GetStaticProps } from 'next'
+
  
 function IndexPage() {
   const projetos = [
@@ -68,15 +68,5 @@ type Repo = {
   stargazers_count: number
 }
 
- 
-export const getStaticProps = (async (context) => {
-  const res = await fetch('https://gist.githubusercontent.com/huri3l/b2d6a36f169dfe3fcd11a5dac89d83cc/raw/ad2cd1cd3c858ffd6fd70af5c80bb6bf98ee2cdf/home.json')
-  const repo = await res.json()
-  return { props: { repo } }
-}) satisfies GetStaticProps<{
-  repo: Repo
-}>
-
-   
-export default IndexPage
+ export default IndexPage
 
