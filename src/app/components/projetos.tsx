@@ -13,7 +13,7 @@ export function Projetos({projetos} : ProjetosProps)  {
           <ul className="flex flex-wrap gap-16 justify-center xl:justify-start">
             {projetos.map(({slug, name, image}, index) => (
            /* <Link href={`/projetos/${slug}`} key={name + index }>*/
-           <Link target="_blank" href={`https://${slug}.github.io`} key={name + index }>
+           <Link target="_blank" href={`https://${slug}`} key={name + index }>
                 <li className="text-md relative">
                     <Image src={image.url} alt={image.alt} width={300} height={300} className="object-cover rounded-2xl h-[12.71rem] mb-4"/>
                     <span>{name}</span>

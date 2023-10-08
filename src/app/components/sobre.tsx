@@ -55,14 +55,14 @@ export default function Sobre() {
                     Sou formado em Artes Visuais pela Universidade Federal do ES, trabalhei 3 anos como desenvolvedor Web. 
                     Tenho experiência profissional em desenvolver para empresas de diversos tamanhos e setores. 
                     Estou sempre em busca de aperfeiçoar meu conhecimento por meio do estudo de novas linguagens e frameworks.
-                    Moro em Vila Velha no Espírito Santo e gosto de tecnologia, guitarras e surf. 
+                    Moro em Vila Velha no Espírito Santo e gosto de tecnologia, guitarras e surfe. 
                     </h2>
             </div>
             <ul className="flex flex-wrap justify-center xl:grid xl:grid-cols-3 xl:w-fit gap-3 text-xl mb-10">
             <li style={{backgroundColor: '#ea5d24', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Html 5</li>
+            <li style={{backgroundColor: '#6BDDFA', color: '#000000'}} className="w-fit p-2 rounded-md">React</li>
             <li style={{backgroundColor: '#8bbf3d', color: '#000000'}} className="w-fit p-2 rounded-md">Node.Js</li>
             <li style={{backgroundColor: '#202124', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Github</li>
-            <li style={{backgroundColor: '#6BDDFA', color: '#000000'}} className="w-fit p-2 rounded-md">React</li>
             <li style={{backgroundColor: '#040821', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Next.js</li>
             <li style={{backgroundColor: '#2F74C0', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Typescrit</li>
             <li style={{backgroundColor: '#EFD81D', color: '#000000'}} className="w-fit p-2 rounded-md">Javascript</li>

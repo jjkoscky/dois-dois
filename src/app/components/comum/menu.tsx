@@ -17,11 +17,9 @@ export default function Menu({isVisible, onClose}: MenuProps) {
                 <div className="flex justify-between mb-5 ">
                     <Link href="/">
                         <ReactIconF />
-                        
-                    
                     </Link>
                     <button onClick={ev=>onClose()}>
-                    <MenuClose className="w-10 h-10"/>
+                        <MenuClose className="w-10 h-10"/>
                     </button>
                 </div>            
                 <nav className="flex flex-col gap-5 text-xl p-5 items-center">
