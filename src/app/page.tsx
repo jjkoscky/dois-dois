@@ -2,7 +2,7 @@
 import Header from './components/header'
 import Sobre from './components/sobre'
 import { Projetos } from './components/projetos'
-import type { GetStaticProps } from 'next'
+import type { InferGetStaticPropsType, GetStaticProps } from 'next'
  
 function IndexPage() {
   const projetos = [
