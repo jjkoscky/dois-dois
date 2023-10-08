@@ -52,7 +52,7 @@ export default function Sobre() {
                     {/*Formado em Artes Visuais, retorno a area de desenvolvimento Web em 2023. 
                     Sou um desenvolvedor Front-end com expericência de trabalhar em empresas e grupos. 
                     Gosto de conhecer novas linguagens e frameworks, por hobie, gosto de guitarras e surfar.  */}
-                    Sou formado em Artes Visuais pela Universidade Federal do ES, trabalhei 3 anos como desenvolvedor Web. 
+                    Sou formado em Artes Visuais pela Universidade Federal do ES, trabalhei 3 anos como Desenvolvedor Web. 
                     Tenho experiência profissional em desenvolver para empresas de diversos tamanhos e setores. 
                     Estou sempre em busca de aperfeiçoar meu conhecimento por meio do estudo de novas linguagens e frameworks.
                     Moro em Vila Velha no Espírito Santo e gosto de tecnologia, guitarras e surfe. 
