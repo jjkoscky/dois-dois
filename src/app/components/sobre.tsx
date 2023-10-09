@@ -64,7 +64,7 @@ export default function Sobre() {
             <li style={{backgroundColor: '#8bbf3d', color: '#000000'}} className="w-fit p-2 rounded-md">Node.Js</li>
             <li style={{backgroundColor: '#202124', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Github</li>
             <li style={{backgroundColor: '#040821', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Next.js</li>
-            <li style={{backgroundColor: '#2F74C0', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Typescrit</li>
+            <li style={{backgroundColor: '#2F74C0', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Typescript</li>
             <li style={{backgroundColor: '#EFD81D', color: '#000000'}} className="w-fit p-2 rounded-md">Javascript</li>
             <li style={{backgroundColor: '#080808 ', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">GML</li>
             <li style={{backgroundColor: '#0ea5e9', color: '#FFFFFF'}} className="w-fit p-2 rounded-md">Tailwind</li>
